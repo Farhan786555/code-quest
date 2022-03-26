@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#particle-js {
+    height: 100vh;
+}
+
+.card {
+    height: 500px;
+    width: 340px;
+    background-color: #171717;
+    /* opacity: 0.95; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.animate {
+    background-color: #737373;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cube {
+    margin: 0 auto;
+}
+
+.card-content h3 {
+    color: #fff;
+    margin: 5px 20px;
+    font-size: 28px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.card-content p {
+    color: #d4d4d4;
+    margin: 20px;
+    text-align: center;
+    font-size: small;
+}
+
+.gumroad-follow-form-embed {
+    display: flex; }
+    .gumroad-follow-form-embed * {
+      margin: 10px 0px;
+      border: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box !important; 
+    }
+    .gumroad-follow-form-embed input {
+        padding: 8px;
+        width: 200px !important;
+        margin-left: 30px;
+        background: #3a3a3a;
+        color: #fff;
+        border: solid 0.0625rem #000;
+     }
+    .gumroad-follow-form-embed button {
+      background: #000;
+      color: #d4d4d4;
+      font-size: 1rem;
+      padding: 10px 20px;
+      border: solid 0.0625rem #000;
+      cursor: pointer;
+      width: fit-content;
+      transition: all 0.14s ease-out; }
+      .gumroad-follow-form-embed button:hover {
+        background-color: #181818;
+        color: rgb(255, 255, 255);
+        transform: translate(-0.25rem, -0.25rem);
+        box-shadow: 4px 4px 0px #000; }
